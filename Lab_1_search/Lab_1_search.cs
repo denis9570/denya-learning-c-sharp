@@ -9,7 +9,7 @@ namespace Lab_1_search
         {
             Console.Write("Enter array length ");
             var size = int.Parse(Console.ReadLine());
-            var array = new int[size + 1];
+            var array = new int[size + 1]; // TODO huj zhopa pizda dzhigurda
 
             //заполнение массива случайными числами
             var random = new Random();
