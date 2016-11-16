@@ -40,7 +40,7 @@ namespace Lab2_DSA_sort
             Console.ReadLine();
         }
 
-        public static int BubbleSort(int[] intArray)
+        public static void BubbleSort(int[] intArray)
         {
             var counter = 0;
             Console.WriteLine("**********UnSorted Array********");
@@ -65,14 +65,6 @@ namespace Lab2_DSA_sort
             }
 
             Console.WriteLine("**********Sorted Array********** " + counter);
-
-            // ReSharper disable once EmptyForStatement
-            for (int i = 0; i < intArray.Length; i++)
-            {
-
-            }
-
-            return 0;
         }
 
         static void ShellSort(int[] array)
